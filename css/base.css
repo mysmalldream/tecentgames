@@ -1,0 +1,77 @@
+@charset "utf-8";
+/*将来所有的css的样式我们都要放在css文件中*/
+/*=========================Reset_start==========================*/
+body,h1,h2,h3,h4,h5,h6,div,p,dl,dt,dd,ol,ul,li,form,table,
+th,td,a,img,span,strong,var,em,input,textarea,select,option{
+	margin: 0;
+    padding: 0;
+}
+html,body{                 /*整个页面文字样式*/
+	font-family:"宋体","微软雅黑",Arail,Tabhoma;
+    font-size: 12px;
+    text-align: left;
+}
+ul,ol{
+	list-style: none;       /*去掉前面的小圆点*/
+}
+input,img{
+	border: 0;              /*去掉输入框，图片的边框*/
+}
+img {                      
+    border: 0;               /*去掉行内替换元素空白缝隙*/
+    vertical-align: middle;
+}
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+input,select,textarea{
+	outline:0;             /* outline 属性设置元素周围的轮廓线。*/
+}
+textarea{
+	resize:none;
+    overflow: auto;          /* 定义溢出元素内容区的内容会如何处理，自动出现滚动条。*/
+    resize: none;            /*防止拖动 影响布局*/
+}
+table{
+	border-collapse: collapse;/*为表格设置合并边框模型：*/
+	 border-spacing: 0;      /*属性设置相邻单元格的边框间的距离*/
+}
+th,strong,var,em{           
+	font-weight: normal;    /* 文字不加粗*/
+	 font-style: normal;     /*文字样式不倾斜，正常显示*/
+}
+s, i, em {                   /*废物利用*/
+    font-style: normal;
+    text-decoration: none;
+}
+a{
+	text-decoration: none;		/*去掉超链接文字下划线*/
+	color: black;
+}
+a:hover {
+	color:red ;              /* 鼠标悬浮文字变红*/
+}
+.clearfix:after {              /*伪元素清除浮动*/
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;                  /*支持ie6版本*/
+}
+.fl {
+	float: left;               /*设置左浮动*/
+}
+.fr {
+	float: right;              /*设置右浮动*/
+}
+/*==========================Reset_End===========================*/

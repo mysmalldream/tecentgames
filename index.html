@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>腾讯游戏平台</title>
+	<link rel="shortcut icon" href="favicon.ico"/> 
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/global.css">
+	<script defer=true  src="js/javascript.js"></script>
+	<!-- 底部手风琴效果 -->
+	<script src="js/jquery-1.12.2.js"></script>
+    <script>
+        $(function () {
+            $("#box>ul>li").mouseover(function () {
+                //当前的li的所有的兄弟元素li的宽度设置一下
+                $(this).siblings("li").css("width","80px");
+                $(this).css("width","300px");
+            });
+            $("#box>ul>li").mouseout(function () {
+                $("#box>ul>li").css("width","136px");
+            });
+        });
+    </script>
+
+</head>
+<body>
+<!--==========================top开始====================== -->
+	<div class="top">
+		<div class="w">
+			<div class="logo">
+				<img   src="images/game1.png" alt="">
+				<span class="line"></span>
+			</div>
+			
+			<div  id="cf">        <!-- CF全能枪王图片，有特效 -->
+				<img src="images/111.jpg" alt="">
+				<div id="cff">
+					<img src="images/111big.jpg" alt="">
+				</div>
+			</div>
+			<div class='top_r'>
+				<div class="growup">
+				<i></i>
+				<a href="#">成长守护平台</a>
+			</div>
+			<div id="tencentgame">     <!--  腾讯游戏排行榜，有特效 -->
+				<a href="#" id="tencent">腾讯游戏排行榜</a>
+				<em> > </em>
+				<div id="detail">
+					<iframe src="iframe/top.html" frameborder="0" scrolling="no" width='700' height="465">
+						
+					</iframe>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+<!-- =====================top结束========================== -->
+<!-- =================腾讯游戏平台nav开始======================= -->
+	<div class="navtop">
+		<div class="w">
+			<a href="#"><img src="images/game2.png" alt=""></a>
+			<ul class="navtop_r" id="lis">
+				<li ><b class='current'></b><a href="#">主页</a></li>
+				<li><b></b><a href="#">游戏助手</a></li>
+				<li><b></b><a href="#">活动中心</a></li>
+				<li><b></b><a href="#">TGP BOX</a></li>
+				<li><b></b><a href="#">掌上TGP</a></li>
+				<li><b></b><a href="#">TGP2.0</a></li>
+				<li><b></b><a href="#">网吧专版</a></li>
+				<li><b></b><a href="#">官方论坛</a></li>
+			</ul>
+		</div>
+	</div>
+<!-- =================腾讯游戏平台nav结束======================= -->
+<!-- ===================二维码开始======================== -->
+	<div class="ewm" id="bigewm">
+		<div class="ewm3">
+			<div class="W">
+				<div class="ewm1">
+					<span id='ewm'>X</span>
+					<p>扫一扫下载掌上TGP</p>
+					<div class="ewm2"><img src="images/qcode.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- ================二维码结束============================= -->
+<!--================ 轮播图开始============================= -->
+	<div class="all" id="box">
+		<div class="screen">
+			<ul>
+				<li>
+					<img src="images/lunbobig-01.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-02.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-03.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-04.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-05.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-06.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-07.jpg" alt="">
+				</li>
+				<li>
+					<img src="images/lunbobig-01.jpg" alt="">
+				</li>
+			</ul>
+			<div class="down">
+			
+			</div>
+			 <ol>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+		</div>
+	</div>
+<!-- =================轮播图结束============================ -->
+<!-- ================新闻中心开始============================ -->
+<div class="news">
+	<div class="w">
+		<div class="new"><b></b> &nbsp;新闻中心</div>
+		<div class="more"><a href="#">查看更多+</a></div>
+		<div class="car"><i></i> &nbsp;功能直通车</div>
+	</div>
+</div>
+<div class="w">
+	<div class="list">
+		<div class="click">
+			<a href="#"><img src="images/newspic.jpg" alt=""></a>
+		</div>
+		<div class="tab">
+			<div class="topic" id="emem">
+				<em class="current">全部</em><em>公告</em><em>活动</em><em>媒体</em>
+			</div>
+			<div class="content">
+				<ul id="contentul">
+					<li class="now">
+						<h2><a  class='tittl' href="#">敖厂长玩转《星露谷物语》，养鸡二厂创业</a> </h2>
+						<p>敖厂长亲自示范《星露谷物语》魔性玩法，种菜有毒，</p><br/><p>根本停不下来！</p>
+						<hr>
+						<a href="#">[公告] TGP手游与页游迁移下架公告</a><br/>
+						<a href="#">[公告] 2017腾讯游戏平台（TGP）版本更新日志</a><br/>
+						<a href="#">[公告] TGP《饥荒：联机版》双周热销50万份，走心营造国内单机生态</a><br/>
+						<a href="#">[公告] TGP饥荒国服真的火“爆”了！</a><br/>
+					</li>
+					<li>
+						<h2><a  class='tittl' href="#">TGP手游与页游迁移下架公告</a></h2>
+						<p>TGP手游业务迁移至腾讯手游助手、TGP网页游戏业务</p><br/><p>迁移至QQ游戏大厅</p>
+						<hr>
+						<a href="#">[公告] TGP饥荒首月热销突破100万</a><br/>
+						<a href="#">[公告] TGP《饥荒：联机版》双周热销50万份，走心营造国内单机生态</a><br/>
+						<a href="#">[公告] TGP饥荒国服真的火“爆”了！</a><br/>
+						<a href="#">[公告] 熊猫TV《饥荒：联机版》主播生存赛即将开启！</a><br/>
+					</li>
+					<li>
+						<h2><a  class='tittl' href="#">敖厂长玩转《星露谷物语》，养鸡二厂创业</a></h2>
+						<p>敖厂长亲自示范《星露谷物语》魔性玩法，种菜有毒，</p><br/><p>根本停不下来！</p>
+						<hr>
+						<a href="#">[公告] TGP手游与页游迁移下架公告</a><br/>
+						<a href="#">[公告] 2017腾讯游戏平台（TGP）版本更新日志</a><br/>
+						<a href="#">[公告] TGP饥荒首月热销突破100万</a><br/>
+						<a href="#">[公告] TGP《饥荒：联机版》双周热销50万份，走心营造国内单机生态</a><br/>
+						<a href="#">[公告] TGP饥荒国服真的火“爆”了！</a><br/>
+					</li>
+					<li>
+						<h2><a  class='tittl' href="#">【腾讯游戏】 养鸡二厂创业</a></h2>
+						<p>敖厂长亲自示范《星露谷物语》魔性玩法，种菜有毒，</p><br/><p>根本停不下来！</p>
+						<hr>
+						<a href="#">[媒体] 【掌上TGP】王者出装大神带你一起飞</a><br/>
+						<a href="#">[媒体] TGP助你称霸游戏成大神</a><br/>
+						<a href="#">[媒体] 神器在手，TGP新功能体验</a><br/>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<div class="sixcar">   <!-- 功能直通车下面的额图片 -->
+		<img src="images/bus_1.jpg" alt="">
+		<img src="images/bus_2.jpg" alt="">
+		<img src="images/bus_3.jpg" alt="">
+		<img src="images/bus_4.jpg" alt="">
+		<img src="images/bus_5.jpg" alt="">
+		<img src="images/bus_6.jpg" alt="">
+	</div>
+</div>
+<!-- ================新闻中心结束============================ -->
+<!-- ===============最新活动开始============================= -->
+	
+		<div class="w">
+			<div class="activity1">
+				<div class="newactivity">
+					<b></b>
+					<em>最新活动</em>
+					<i><a href="#">查看更多+</a></i>
+				</div>
+				<div class="fun">
+					<img id="one" src="images/lunbosml-01.jpg" alt="">
+					<i id="oneone"><a id="aa" href="#">C F</a></i>
+				</div>
+				<div class="fun1">
+					<ul>
+						<li><img id="two" src="images/active-01.jpg" alt=""></li>
+						<li><img id="three" src="images/active-02.jpg" alt=""></li>
+						<li><img id="four" src="images/active-03.jpg" alt=""></li>
+						<li><img id="five" src="images/active-04.jpg" alt=""></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+<!-- ==============最新活动结束============================== -->
+	<!-- 新游关注榜  热门视频  合作伙伴开始-->
+	<div class="newnew">
+		<div class="w">
+				<div class="focus">
+					<b></b>
+					新游关注榜
+				</div>
+			<div class='focus1'>
+				<ul id="jianbian">
+					<li>
+						<i style="background-color:#ff00cb;"></i>
+						<em>1</em>
+						<a href="#">新流星搜剑录</a>
+						<u class="span">抢号</b></u>
+					</li>
+					
+					<li>
+						<i style="background-color: green;"></i>
+						<em>2</em>
+						<a href="#">新流星搜剑录</a>
+						<u class="span">抢号</b></u>
+					</li>
+
+					<li>
+						<i style="background-color: #fff400;"></i>
+						<em>3</em>
+						<a href="#">新流星搜剑录</a>
+						<u class="span">抢号</b></u>
+					</li>
+
+					<li>
+						<i style="background-color: #00ff86;"></i>
+						<em>4</em>
+						<a href="#">新流星搜剑录</a>
+						<u class="span">抢号</b></u>
+					</li>
+
+					<li>
+						<i style="background-color: #009cff;"></i>
+						<em>5</em>
+						<a href="#">新流星搜剑录</a>
+						<u class="span">抢号</b></u>
+					</li>
+
+					<li>
+						<i style="background-color: #079861;"></i>
+						<em>6</em>
+						<a href="#">新流星搜剑录</a>
+						<u class="span">抢号</b></u>
+					</li>
+				</ul>
+			</div>
+
+		<div class="focus2" id='box'>
+			<ul>
+				<li><img src="images/1.jpg" alt=""></li>
+				<li><img src="images/2.jpg" alt=""></li>
+				<li><img src="images/3.jpg" alt=""></li>
+				<li><img src="images/4.jpg" alt=""></li>
+				<li><img src="images/6.jpg" alt=""></li>
+			</ul>
+		</div>
+		</div>
+	</div>
+	 
+
+
+	<!-- 新游关注榜 热门视频  合作伙伴结束-->
+	
+
+
+
+<!-- end开始============================== -->
+	<div class="end">
+		<div class="w">
+			<div class="link" >腾讯互动娱乐 | 服务条款 | 广告服务 | 腾讯游戏招聘 | 腾讯游戏客服 | 游戏地图 | 游戏活动 | 成长守护平台 | 商务合作 | 网站导航
+			</div>
+			<div class="copy">COPYRIGHT &copy; 1998 – 2017 TENCENT. ALL RIGHTS RESERVED.</div>
+			<div>腾讯公司 版权所有</div>
+		</div>
+	</div>
+<!-- end结束 -->
+
+
+</body>
+</html>
